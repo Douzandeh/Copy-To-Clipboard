@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+::selection{
+    background: #03a9f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #03a9f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container :where(textarea , button){
+    outline: 0;
+    border: 0;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.container textarea{
+    border: 1px solid #999;
+}
+.container button{
+    background: #83e5fc;
+    transition: all 1s;
+}
